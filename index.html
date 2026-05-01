@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script>
+    (function(){
+       emailjs.init("xe-SWF7EF-Xlikau0");
+    })();
+    </script>
+    <meta charset="UTF-8">
+    <title>HELLUCIGEN</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@300;400;500&family=Barlow+Condensed:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body id="top">
+
+<header>
+    <div class="logo">
+        <a href="#top">
+            <img src="images/logo.png" alt="Hellucigen Logo">
+        </a>
+    </div>
+    <nav>
+        <a href="#shirts">shirts</a>
+        <a href="#pants">pants</a>
+        <a href="#hats">hats</a>
+        <a href="#about">about</a>
+    </nav>
+    <div class="cart" id="cart-btn">
+        <span class="cart-icon">BAG</span>
+        <span class="cart-count" id="cart-count">0</span>
+    </div>
+</header>
+
+<section class="hero">
+    <video autoplay muted loop playsinline class="hero-video">
+        <source src="videos/hero.mp4" type="video/mp4">
+    </video>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <p class="hero-sub">SS 2026 — ALGIERS</p>
+        <h1>HELLUCIGEN</h1>
+        <p class="hero-tagline">made to stand out</p>
+        <a href="#shirts" class="hero-btn">SHOP NOW</a>
+    </div>
+    <div class="hero-scroll">
+        <span>SCROLL</span>
+        <div class="scroll-line"></div>
+    </div>
+</section>
+
+<!-- SHIRTS -->
+<section id="shirts">
+    <div class="section-header">
+        <h2 class="section-title">Shirts</h2>
+        <span class="section-count">02 PIECES</span>
+    </div>
+    <div class="products">
+
+        <div class="product" id="product-W-CAMO">
+            <div class="product-slider">
+                <a href="product.html?id=W-CAMO" class="slider-link">
+                <div class="slider-container" id="slider1">
+                    <img src="images/white-camo-main.png" class="active" alt="Sinner Repenter Tee Front">
+                    <img src="images/shirt1-back.png" alt="Sinner Repenter Tee Back">
+                </div>
+                </a>
+            </div>
+            <div class="product-info">
+                <div class="product-meta">
+                    <h3>white CAMO tee</h3>
+                    <p class="price">3 300 DA</p>
+                </div>
+                <select class="size-select" id="size-CAMO">
+                    <option value="">SIZE</option>
+                    <option value="S" data-stock="8">S</option>
+                    <option value="M" data-stock="12">M</option>
+                    <option value="L" data-stock="10">L</option>
+                    <option value="XL" data-stock="5">XL</option>
+                </select>
+                <input type="number" class="quantity-input" min="1" value="1" id="qty-CAMO">
+                <button class="add-to-cart"
+                        data-name="white CAMO tee"
+                        data-price="3300"
+                        data-product-id="sinner">ADD TO BAG</button>
+            </div>
+        </div>
+
+        <div class="product" id="product-B-CAMO">
+            <div class="product-slider">
+                <a href="product.html?id=B-CAMO" class="slider-link">
+                <div class="slider-container" id="slider2">
+                    <img src="images/black-camo-main.png" class="active" alt="Hellucigen Tee Front">
+                    <img src="images/shirt2-back.png" alt="Hellucigen Tee Back">
+                </div>
+                </a>
+            </div>
+            <div class="product-info">
+                <div class="product-meta">
+                    <h3>BLACK CAMO</h3>
+                    <p class="price">3 300 DA</p>
+                </div>
+                <select class="size-select" id="size-B-CAMO">
+                    <option value="">SIZE</option>
+                    <option value="S" data-stock="6">S</option>
+                    <option value="M" data-stock="15">M</option>
+                    <option value="L" data-stock="9">L</option>
+                    <option value="XL" data-stock="3">XL</option>
+                </select>
+                <input type="number" class="quantity-input" min="1" value="1" id="qty-B-CAMO">
+                <button class="add-to-cart"
+                        data-name="BLACK CAMO"
+                        data-price="3300"
+                        data-product-id="BLACK CAMO">ADD TO BAG</button>
+            </div>
+        </div>
+        
+        <!-- NEW: basic boxy fit white tee -->
+        <div class="product" id="product-WHITE-BASIC">
+            <div class="product-slider">
+                <a href="product.html?id=WHITE-BASIC" class="slider-link">
+                <div class="slider-container" id="slider-white-basic">
+                    <img src="images/white-boxy-front.png" class="active" alt="White Boxy Tee Front">
+                    <img src="images/white-boxy-back.png" alt="White Boxy Tee Back">
+                </div>
+                </a>
+            </div>
+            <div class="product-info">
+                <div class="product-meta">
+                    <h3>basic boxy fit white tee</h3>
+                    <p class="price">2 999 DA</p>
+                </div>
+                <select class="size-select" id="size-WHITE-BASIC">
+                    <option value="">SIZE</option>
+                    <option value="S" data-stock="20">S</option>
+                    <option value="M" data-stock="25">M</option>
+                    <option value="L" data-stock="20">L</option>
+                    <option value="XL" data-stock="15">XL</option>
+                </select>
+                <input type="number" class="quantity-input" min="1" value="1" id="qty-WHITE-BASIC">
+                <button class="add-to-cart"
+                        data-name="basic boxy fit white tee"
+                        data-price="2999"
+                        data-product-id="white-basic">ADD TO BAG</button>
+            </div>
+        </div>
+
+        <!-- NEW: basic boxy fit black tee -->
+        <div class="product" id="product-BLACK-BASIC">
+            <div class="product-slider">
+                <a href="product.html?id=BLACK-BASIC" class="slider-link">
+                <div class="slider-container" id="slider-black-basic">
+                    <img src="images/black-boxy-front.png" class="active" alt="Black Boxy Tee Front">
+                    <img src="images/black-boxy-back.png" alt="Black Boxy Tee Back">
+                </div>
+                </a>
+            </div>
+            <div class="product-info">
+                <div class="product-meta">
+                    <h3>basic boxy fit black tee</h3>
+                    <p class="price">2 999 DA</p>
+                </div>
+                <select class="size-select" id="size-BLACK-BASIC">
+                    <option value="">SIZE</option>
+                    <option value="S" data-stock="20">S</option>
+                    <option value="M" data-stock="25">M</option>
+                    <option value="L" data-stock="20">L</option>
+                    <option value="XL" data-stock="15">XL</option>
+                </select>
+                <input type="number" class="quantity-input" min="1" value="1" id="qty-BLACK-BASIC">
+                <button class="add-to-cart"
+                        data-name="basic boxy fit black tee"
+                        data-price="2999"
+                        data-product-id="black-basic">ADD TO BAG</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="about">
+    <div class="about-inner">
+        <span class="about-label">EST. 2026 — DZ</span>
+        <h2>ABOUT<br>HELLUCIGEN</h2>
+           <p> Built from chaos, rebellion and underground culture.</p>
+           <p> inspired from cacti and awge</p>
+           <p> LUCI hopes that you are satisfied with the service.</p>
+        <div class="social-links">
+            <a href="https://instagram.com/hellucigen.co" target="_blank">
+                <img src="images/instagram.png" alt="Instagram">
+            </a>
+            <a href="https://tiktok.com/@hellucigen" target="_blank">
+                <img src="images/tiktok.png" alt="TikTok">
+            </a>
+            <a href="/cdn-cgi/l/email-protection#c28aa7aeaeb7a1aba5a7acf0f2f0f482a5afa3abaeeca1adaf">
+                <img src="images/gmail.png" alt="Email">
+            </a>
+            <a href="https://wa.me/213773422221?text=Hello%20I%20want%20to%20order%20from%20Hellucigen" target="_blank">
+                <img src="images/whatsapp.png" alt="WhatsApp">
+            </a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <span>© 2026 HELLUCIGEN</span>
+    <span>ALL RIGHTS RESERVED</span>
+</footer>
+
+<!-- CART PANEL -->
+<div id="cart-panel">
+    <div class="cart-panel-header">
+        <h2>YOUR BAG</h2>
+        <button id="cart-close">&#215;</button>
+    </div>
+
+    <div id="cart-items"></div>
+
+    <div id="cart-summary">
+        <div class="summary-line">
+            <span>SUBTOTAL</span>
+            <span id="products-total">0 DA</span>
+        </div>
+        <div class="summary-line">
+            <span>SHIPPING</span>
+            <span id="shipping-total">0 DA</span>
+        </div>
+        <div class="summary-line discount-line" id="discount-line" style="display:none;">
+            <span>DISCOUNT</span>
+            <span id="discount-display">- 200 DA</span>
+        </div>
+        <div class="summary-line total-line">
+            <span>TOTAL</span>
+            <span id="final-total">0 DA</span>
+        </div>
+    </div>
+
+    <div class="discount-section">
+        <div class="discount-input-group">
+            <input type="text" id="discount-code" placeholder="PROMO CODE">
+            <button onclick="applyDiscount()" class="apply-discount-btn">APPLY</button>
+        </div>
+    </div>
+
+    <button id="checkout-btn" class="checkout-btn">CHECKOUT</button>
+
+    <div id="checkout-form" class="checkout-form">
+        <h3>DELIVERY DETAILS</h3>
+        <input type="text" id="full-name" placeholder="FULL NAME">
+        <input type="tel" id="phone-number" placeholder="PHONE NUMBER">
+        <select id="shipping-company">
+            <option value="">SHIPPING COMPANY</option>
+            <option value="yalidine">Yalidine</option>
+            <option value="zr">ZR Express</option>
+        </select>
+        <select id="wilaya">
+            <option value="">WILAYA</option>
+            <option value="adrar">Adrar</option>
+            <option value="ain_defla">Ain Defla</option>
+            <option value="ain_temouchent">Ain Temouchent</option>
+            <option value="alger">Alger</option>
+            <option value="annaba">Annaba</option>
+            <option value="batna">Batna</option>
+            <option value="bechar">Bechar</option>
+            <option value="bejaia">Bejaia</option>
+            <option value="beni_abbes">Beni Abbes</option>
+            <option value="biskra">Biskra</option>
+            <option value="blida">Blida</option>
+            <option value="bordj_badji_mokhtar">Bordj Badji Mokhtar</option>
+            <option value="bordj_bou_arreridj">Bordj Bou Arreridj</option>
+            <option value="bouira">Bouira</option>
+            <option value="boumerdes">Boumerdes</option>
+            <option value="chlef">Chlef</option>
+            <option value="constantine">Constantine</option>
+            <option value="djelfa">Djelfa</option>
+            <option value="djanet">Djanet</option>
+            <option value="el_bayadh">El Bayadh</option>
+            <option value="el_menia">El Menia</option>
+            <option value="el_mghair">El Mghair</option>
+            <option value="el_oued">El Oued</option>
+            <option value="el_tarf">El Tarf</option>
+            <option value="ghardaia">Ghardaia</option>
+            <option value="guelma">Guelma</option>
+            <option value="illizi">Illizi</option>
+            <option value="in_guezzam">In Guezzam</option>
+            <option value="in_salah">In Salah</option>
+            <option value="jijel">Jijel</option>
+            <option value="khenchela">Khenchela</option>
+            <option value="laghouat">Laghouat</option>
+            <option value="mascara">Mascara</option>
+            <option value="medea">Medea</option>
+            <option value="mila">Mila</option>
+            <option value="mostaganem">Mostaganem</option>
+            <option value="m_sila">M'Sila</option>
+            <option value="naama">Naama</option>
+            <option value="oran">Oran</option>
+            <option value="ouargla">Ouargla</option>
+            <option value="ouled_djellal">Ouled Djellal</option>
+            <option value="relizane">Relizane</option>
+            <option value="saida">Saida</option>
+            <option value="setif">Setif</option>
+            <option value="sidi_bel_abbes">Sidi Bel Abbes</option>
+            <option value="skikda">Skikda</option>
+            <option value="souk_ahras">Souk Ahras</option>
+            <option value="tamanghasset">Tamanghasset</option>
+            <option value="tebessa">Tebessa</option>
+            <option value="tiaret">Tiaret</option>
+            <option value="tindouf">Tindouf</option>
+            <option value="tipaza">Tipaza</option>
+            <option value="tissemsilt">Tissemsilt</option>
+            <option value="tizi_ouzou">Tizi Ouzou</option>
+            <option value="timimoun">Timimoun</option>
+        </select>
+        <input type="text" id="baladya" placeholder="BALADYA">
+        <select id="delivery-method">
+            <option value="">DELIVERY METHOD</option>
+            <option value="home">Home Delivery</option>
+            <option value="pickup">Pickup</option>
+        </select>
+        <input type="text" id="street" placeholder="STREET ADDRESS" style="display:none;">
+        <button onclick="submitOrder()" class="submit-order-btn">PLACE ORDER</button>
+    </div>
+</div>
+
+<div id="cart-overlay" onclick="closeCart()"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
