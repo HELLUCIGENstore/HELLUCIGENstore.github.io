@@ -4,8 +4,8 @@
 const PRODUCTS = {
     'W-CAMO': {
         name: 'white CAMO tee',
-        price: 3300,
-        priceDisplay: '3 300 DA',
+        price: 2999,
+        priceDisplay: '2 999 DA',
         description: 'Limited edition camo print tee with oversized fit and screen printed graphics.',
         details: '100% heavyweight cotton — 250 GSM\nOversized fit\nScreen printed graphics\nWash inside out at 30°C',
         images: [
@@ -17,8 +17,8 @@ const PRODUCTS = {
     },
     'B-CAMO': {
         name: 'BLACK CAMO',
-        price: 3300,
-        priceDisplay: '3 300 DA',
+        price: 2999,
+        priceDisplay: '2 999 DA',
         description: 'Bold black camo tee with contrasting graphics. Made for the underground.',
         details: '100% heavyweight cotton — 250 GSM\nOversized fit\nScreen printed graphics\nWash inside out at 30°C',
         images: [
@@ -30,8 +30,8 @@ const PRODUCTS = {
     },
     'WHITE-BASIC': {
         name: 'basic boxy fit white tee',
-        price: 2999,
-        priceDisplay: '2 999 DA',
+        price: 2700,
+        priceDisplay: '2 700 DA',
         description: 'Essential boxy fit tee in crisp white. Pre-shrunk and reinforced for daily wear.',
         details: '100% combed ring-spun cotton — 250 GSM\nBoxy oversized fit\nReinforced collar and shoulder seams\nPre-shrunk fabric\nWash inside out at 30°C',
         images: [
@@ -45,8 +45,8 @@ const PRODUCTS = {
     },
     'BLACK-BASIC': {
         name: 'basic boxy fit black tee',
-        price: 2999,
-        priceDisplay: '2 999 DA',
+        price: 2700,
+        priceDisplay: '2 700 DA',
         description: 'Essential boxy fit tee in deep black. Pre-shrunk and reinforced for daily wear.',
         details: '100% combed ring-spun cotton — 250 GSM\nBoxy oversized fit\nReinforced collar and shoulder seams\nPre-shrunk fabric\nWash inside out at 30°C',
         images: [
